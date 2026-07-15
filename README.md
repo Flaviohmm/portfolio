@@ -1,75 +1,136 @@
-# React + TypeScript + Vite
+# 🚀 Portfólio - Flavio Macedo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um portfólio moderno, responsivo e com animações fluidas, desenvolvido para apresentar minhas habilidades, experiências e projetos como **Full Stack Developer**, **AI Engineer** e **Backend Specialist**.
 
-Currently, two official plugins are available:
+O objetivo deste projeto é oferecer uma experiência visual elegante, destacando projetos, tecnologias e formas de contato de maneira intuitiva e profissional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Demonstração
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A página inicial apresenta:
 
-## Expanding the ESLint configuration
+* 🎯 Hero Section com animações utilizando **Framer Motion**
+* 🌌 Fundo interativo com partículas
+* 📷 Foto de perfil em destaque
+* 📄 Download do currículo
+* 📂 Acesso rápido aos projetos
+* 📧 Botão para contato
+* 💎 Interface moderna com efeito Glassmorphism
+* 📱 Layout totalmente responsivo
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🛠️ Tecnologias Utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Framer Motion
+* Lucide React
+* CSS Animations
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+---
 
+## 📁 Estrutura do Projeto
+
+```text
+src/
+│
+├── assets/
+│   └── flavio.png
+│
+├── components/
+│   ├── Hero.tsx
+│   ├── Particles.tsx
+│   └── ...
+│
+├── pages/
+├── styles/
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚡ Funcionalidades
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+* Hero animado com Framer Motion
+* Fundo com partículas
+* Design moderno utilizando Glassmorphism
+* Gradientes animados
+* Navegação por âncoras
+* Download do currículo em PDF
+* Botões de ação para contato e projetos
+* Componentização com React
+* Código organizado e escalável
+* Responsividade para desktop, tablet e mobile
 
+---
+
+## 🚀 Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
 ```
+
+Entre na pasta do projeto:
+
+```bash
+cd seu-repositorio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎨 Destaques
+
+* Interface minimalista e elegante
+* Animações suaves
+* Excelente experiência do usuário
+* Arquitetura baseada em componentes
+* Fácil manutenção
+* Código limpo utilizando TypeScript
+
+---
+
+## 📌 Próximas melhorias
+
+* Área de blog
+* Dark/Light Mode
+* Internacionalização (PT/EN)
+* Integração com GitHub API
+* Estatísticas do GitHub
+* Formulário de contato com envio de e-mails
+* CMS para gerenciamento de projetos
+
+---
+
+## 👨‍💻 Autor
+
+**Flavio Macedo**
+
+**Full Stack Developer • AI Engineer • Backend Specialist**
+
+Desenvolvendo aplicações modernas, APIs robustas e soluções de Inteligência Artificial voltadas para performance, escalabilidade e experiência do usuário.
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+Sinta-se à vontade para estudar, utilizar como inspiração e contribuir com melhorias.
