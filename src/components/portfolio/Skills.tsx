@@ -105,7 +105,7 @@ export function Skills() {
                                         <div className="h-1.5 rounded-full bg-white/5 overflow-hidden">
                                             <motion.div
                                                 initial={{ width: 0 }}
-                                                whileInView={{ width: `${s.level} %` }}
+                                                whileInView={{ width: `${s.level}%` }}
                                                 viewport={{ once: true }}
                                                 transition={{ duration: 1.2, ease: "easeOut" }}
                                                 className="h-full bg-gradient-brand rounded-full"
